@@ -67,11 +67,7 @@ main {
     background: linear-gradient(to left, rgba(255, 0, 0, 1), rgba(0, 0, 255, 0.9)), url(/images/gorkhas1.jpg) center / cover no-repeat;
 }
 
-.top-heading h1 {
-    font-family: Maiandra GD;
-}
-
-.top-heading p {
+.top-heading h1,.top-heading p {
     font-family: Maiandra GD;
 }
 
@@ -132,6 +128,9 @@ input:checked::after {
     border-radius: 12px;
     padding: 2%;
     box-shadow: 6px 6px 10px rgb(210, 210, 210);
+}
+.history-of-nepal {
+    margin-bottom: 10%;
 }
 
 .read-more {
@@ -310,6 +309,9 @@ media queries
         flex-wrap: wrap;
         margin-top: 3vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .history-of-nepal {
+        margin-bottom: 0;
     }
     /* #explore-more ul {
       list-style-type: none;
