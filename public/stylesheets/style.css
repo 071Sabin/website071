@@ -123,6 +123,7 @@ input:checked::after {
 }
 
 .history-of-nepal {
+    font-size: 0.5em;
     margin: 15% 0 0 0;
     background-color: aliceblue;
     border-radius: 12px;
@@ -305,6 +306,7 @@ media queries
     }
     .timeline,
     .history-of-nepal {
+        font-size: 1em;
         display: flex;
         flex-wrap: wrap;
         margin-top: 3vw;
